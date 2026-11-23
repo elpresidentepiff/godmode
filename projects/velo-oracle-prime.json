@@ -1,0 +1,28 @@
+{
+  "id": "velo-oracle-prime",
+  "name": "Velo Oracle Prime",
+  "repo": "elpresidentepiff/velo-oracle-prime",
+  "stack": ["Railway", "Supabase", "Python", "GBM", "NB"],
+  "status": "live",
+  "health": "PASS",
+  "last_updated": "2026-11-22",
+  "notes": "Pipeline healthy Nov 17-22. PR #213 raised (duplicate sigma schedule). Open PRs: #197 FormFav gate, #198 prices, #183 learning settlement.",
+  "daily_pipeline": {
+    "orchestrator": "run_full_raceday.py",
+    "eod_orchestrator": "run_full_raceday_eod.py",
+    "steps": 9,
+    "cron": "morning before racing starts"
+  },
+  "models": {
+    "champion": "Core_V0_OR_Passport_V1",
+    "auc": 0.6922,
+    "strike_rate": 0.242,
+    "shadow_model": "Model_C_Ensemble",
+    "shadow_top_decile_roi": 0.1186
+  },
+  "infrastructure": {
+    "railway": "live",
+    "supabase": "live",
+    "wsl_cron": "active"
+  }
+}

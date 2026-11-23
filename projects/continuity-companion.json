@@ -1,0 +1,18 @@
+{
+  "id": "continuity-companion",
+  "name": "Continuity Companion",
+  "repo": "elpresidentepiff/continuity-companion",
+  "stack": ["Supabase", "TypeScript", "Claude API"],
+  "status": "in-progress",
+  "health": "PRs_PENDING",
+  "last_updated": "2026-11-23",
+  "notes": "PR #15 merge-ready (review fixes done), #16 draft stacked. No dedicated Supabase project yet; empty cc_* tables sit in shared VELO project. AI companion Camille.",
+  "open_prs": [
+    { "number": 15, "title": "Review fixes done — merge ready" },
+    { "number": 16, "title": "Draft — stacked on #15" }
+  ],
+  "infrastructure": {
+    "supabase": "shared VELO project (cc_* tables)",
+    "dedicated_supabase": false
+  }
+}

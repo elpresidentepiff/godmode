@@ -1,0 +1,18 @@
+{
+  "id": "level-levelup",
+  "name": "Level / Levelup",
+  "repo": "elpresidentepiff/levelup",
+  "stack": ["TypeScript", "Supabase"],
+  "status": "in-progress",
+  "health": "ACTIVE",
+  "last_updated": "2026-11-23",
+  "notes": "World 1 branch active. Branch rules: meet the bar, never move it. Codex co-agent. Merge on green is operator's call. Learning integrity enforced.",
+  "branch_rules": {
+    "policy": "meet the bar, never move it",
+    "co_agent": "Codex",
+    "merge_policy": "operator decision on green"
+  },
+  "infrastructure": {
+    "supabase": "live"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sovereign-ai",
+  "name": "Sovereign AI",
+  "repo": "elpresidentepiff/sovereign-ai",
+  "stack": ["Railway", "Claude API"],
+  "status": "pre-deploy",
+  "health": "BLOCKED",
+  "last_updated": "2026-11-23",
+  "notes": "Phase 1 code exists. 0 Railway deploys. No Supabase project. CI had 2 hidden real defects (now fixed). Needs: budget approval, secrets, Carlos approvals.",
+  "blockers": ["budget approval", "secrets", "Railway deploy", "Supabase project creation"],
+  "infrastructure": {
+    "railway": "not deployed",
+    "supabase": "not created",
+    "ci": "2 defects fixed"
+  }
+}

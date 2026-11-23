@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "fleet": [
+    {
+      "id": "velo-oracle-prime",
+      "name": "Velo Oracle Prime",
+      "repo": "elpresidentepiff/velo-oracle-prime",
+      "description": "Horse racing ML pipeline — daily scoring via GBM/NB ensemble, Railway + Supabase",
+      "stack": ["Railway", "Supabase", "Python", "GBM", "NB"],
+      "colour": "#4fe3ff",
+      "status": "live",
+      "globe_pin": { "lat": 51.5, "lon": -0.12, "label": "London (Racing)" }
+    },
+    {
+      "id": "continuity-companion",
+      "name": "Continuity Companion",
+      "repo": "elpresidentepiff/continuity-companion",
+      "description": "AI companion (Camille), private repo, PRs pending merge, Supabase cc_* tables",
+      "stack": ["Supabase", "TypeScript", "Claude API"],
+      "colour": "#c084fc",
+      "status": "in-progress",
+      "globe_pin": { "lat": 40.71, "lon": -74.0, "label": "New York (AI)" }
+    },
+    {
+      "id": "ucm-agent",
+      "name": "UCM Agent",
+      "repo": "elpresidentepiff/UCM-AGENT",
+      "description": "Facilities management defect tracking — Supabase, Jobber, Mission Control live",
+      "stack": ["Supabase", "Jobber", "TypeScript"],
+      "colour": "#fb923c",
+      "status": "live",
+      "globe_pin": { "lat": 51.5, "lon": -0.1, "label": "London (UCM)" }
+    },
+    {
+      "id": "sovereign-ai",
+      "name": "Sovereign AI",
+      "repo": "elpresidentepiff/sovereign-ai",
+      "description": "Phase 1 private repo — no Railway deploy yet, needs budget and secrets",
+      "stack": ["Railway", "Claude API"],
+      "colour": "#facc15",
+      "status": "pre-deploy",
+      "globe_pin": { "lat": 37.77, "lon": -122.4, "label": "San Francisco (AI)" }
+    },
+    {
+      "id": "level-levelup",
+      "name": "Level / Levelup",
+      "repo": "elpresidentepiff/levelup",
+      "description": "Learning game — World 1 branch active, Codex co-agent, merge on green is operator's call",
+      "stack": ["TypeScript", "Supabase"],
+      "colour": "#4ade80",
+      "status": "in-progress",
+      "globe_pin": { "lat": 48.85, "lon": 2.35, "label": "Paris (Education)" }
+    }
+  ]
+}

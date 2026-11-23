@@ -1,0 +1,21 @@
+{
+  "id": "ucm-agent",
+  "name": "UCM Agent",
+  "repo": "elpresidentepiff/UCM-AGENT",
+  "stack": ["Supabase", "Jobber", "TypeScript"],
+  "status": "live",
+  "health": "LIVE",
+  "last_updated": "2026-11-23",
+  "notes": "Mission Control live with role PIN logins (Carlos/aands/flooring). Defect page NO LOGIN (locked). 9 operator standards: 1-6 live, missing_defects=0. Blocked on Entra Files.Read.All + alert channel.",
+  "infrastructure": {
+    "supabase": "UCM Defect project",
+    "jobber": "linked",
+    "mission_control": "live"
+  },
+  "operator_standards": {
+    "total": 9,
+    "live": 6,
+    "missing_defects": 0,
+    "blockers": ["Entra Files.Read.All", "alert channel"]
+  }
+}
